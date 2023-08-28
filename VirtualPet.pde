@@ -1,3 +1,8 @@
+size(500, 500);
+fill(144, 238, 144);
+noStroke();
+translate(width/2, height/2);
+rotate(PI/3.5);
 ellipse(-30, 40, 200, 80);
 rotate(PI/2.4);
 ellipse(-30, -50, 200, 80);
