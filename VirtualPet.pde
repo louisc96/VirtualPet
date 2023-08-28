@@ -1,8 +1,18 @@
-
-void setup(){
-  //some of your code here
-}
-void draw(){
-  //more of your code here
-}
-
+ellipse(-30, 40, 200, 80);
+rotate(PI/2.4);
+ellipse(-30, -50, 200, 80);
+rotate(PI/2);
+ellipse(-120, -60, 200, 80);
+rotate(PI/1.8);
+ellipse(-110, 50, 200, 80);
+noStroke();
+fill(0,0,0);
+rotate(PI/4.1);
+ellipse(10, 80, 50, 300);
+ellipse(10, -70, 30, 30);
+fill(255,0,0);
+noFill();
+stroke(0);
+arc(20,-90, 20,20, 0, PI/2);
+rotate(PI/2);
+arc(-90,0, 20,20, 0, PI/2);
